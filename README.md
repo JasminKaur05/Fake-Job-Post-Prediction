@@ -1,9 +1,8 @@
 # 🕵️‍♂️ Fake-Job-Post-Prediction
 
-
 A machine learning project to classify job postings as real or fake using data from Kaggle.
 
-📂 Dataset Overview
+**📂 Dataset Overview**
 
 ~18,000 job posts (real + fake)
 
@@ -11,7 +10,7 @@ Includes attributes like title, location, company profile, description, salary, 
 
 Target column: fraudulent (0 = real, 1 = fake)
 
-🧹 Data Preprocessing
+**🧹 Data Preprocessing**
 
 Cleaned missing & inconsistent values
 
@@ -21,7 +20,7 @@ Encoded categorical features
 
 TF-IDF applied for text columns
 
-🤖 Models Used
+**🤖 Models Used**
 
 KNN
 
@@ -33,12 +32,12 @@ SVM
 
 Naive Bayes
 
-📈 Evaluation
+**📈 Evaluation**
 
 Accuracy, Precision, Recall, F1-Score
 
 Confusion Matrix
 
-🎯 Goal
+**🎯 Goal**
 
 To detect fake job postings and help prevent online recruitment fraud using machine learning.
